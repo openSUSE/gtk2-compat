@@ -1,0 +1,17 @@
+GTK2 Compatibility Package
+
+Compatibility Wrapper for GTK+2
+
+Wrapper for pkg-config file and M4 macros, which simulates presence of
+GTK+2, but tries to use GTK+3.
+
+Using it instead of GTK+2 development files allows to force linking of
+some applications with new libraries without any effort.
+
+
+Usage:
+
+Simply replace old devel packages by gtk2-compat in your system.
+Programs will be compiled with GTK+2, if possible.
+
+Don't expect that you will be able to compile all projects!
