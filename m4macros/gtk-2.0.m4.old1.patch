@@ -6,6 +6,6 @@
  dnl
 -AC_DEFUN([AM_PATH_GTK_3_0],
 +AC_DEFUN([AM_PATH_GTK_2_0],
- [m4_warn([obsolete], [AM_PATH_GTK_3_0 is deprecated, use PKG_CHECK_MODULES([GTK], [gtk+-3.0]) instead])
+ [dnl 
  dnl Get the cflags and libraries from pkg-config
  dnl

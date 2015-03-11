@@ -1,3 +1,10 @@
-2013-07-25  Stanislav Brabec  <sbrabec@oct.suse.cz>
+2015-03-11  Stanislav Brabec  <sbrabec@suse.cz>
+
+	* configure.ac: Modify for the latest autoconf.
+	* m4macros/Makefile.am, m4macros/gtk-2.0.m4.patch,
+	gtk-2.0.m4.old1.patch: Add support for the latest GTK+ 3.
+	* configure.ac: Version 0.2.
+
+2013-07-25  Stanislav Brabec  <sbrabec@suse.cz>
 
 	* Package created, recycling some pieces of gtk1-compat.
